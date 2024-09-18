@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    
+  }
+
+.navbar-nav{
+    font-weight: bold;
+    
+}
+.navbar-brand{
+    width: 10.5rem;
+    height: 3rem;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+  /* section */
+
+
+  
+  
+ 
+ 
+.image{
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+    overflow: hidden;
+    
+
+}
+
+.info{
+    width:100%;
+    height:50vh;
+    
+    
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        height: auto;
+    }
+
+    .info {
+        text-align: center;
+        height: 300px;
+       
+        
+    }
+}
+
+
+
+.info h1{
+    
+    font-weight: 600;
+    line-height: 2;
+    font-family: "Playfair Display", serif;
+
+}
+.info p{
+    font-family: "Playfair Display", serif;
+    
+}
+.info button{
+    background-color: #002f6c;
+    color: white;
+    width: 95% ;
+    height: 3rem;
+}
+.info button:hover{
+    transform: scale(1.03);
+}
+.information{
+    height: 30vh;
+}
+.information pre{
+    font-family: "Playfair Display", serif;
+    overflow-x: hidden;
+    text-align: center;
+
+   
+    
+
+}
+
+
+.footermain{
+    padding: 6rem;
+}
+.information h1{
+    text-align: center;
+}
+.information p{
+    text-align: center;
+}
+
+
+   .email-det input::placeholder {
+    color:white;
+    
+  }
+  .footer-info ul{
+    list-style: none;
+    font-size: 1rem;
+
+  }
+  .head{
+    padding-bottom: 1.8rem;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .email-det{
+    margin-bottom: 1.5rem;
+    font-family: "Playfair Display", serif;
+
+  }
+
+  
+
+  .contaner{
+    width:100%;
+    height: 100vh;
+  }
+
+   .image{
+    background-image:url(https://in.nothing.tech/cdn/shop/files/phone-2a-blue-desktop_1292x.jpg?v=1714298780) ;
+    background-size: cover;
+    overflow: hidden;
+  }
